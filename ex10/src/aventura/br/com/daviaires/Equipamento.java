@@ -1,4 +1,4 @@
-package aventura;
+package aventura.br.com.daviaires;
 
 public class Equipamento extends Entidade{
     public Equipamento(String nome, String descricao, int ataque, int armadura){

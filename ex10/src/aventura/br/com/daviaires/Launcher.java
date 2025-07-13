@@ -8,9 +8,9 @@
 //- Crie a classe Main onde você deve instanciar o jogo. Crie pelo menos 3 personagens com equipamentos distintos e
 //exiba os dados do jogo e dos personagens na tela.
 
-package aventura;
+package aventura.br.com.daviaires;
 
-public class Main {
+public class Launcher {
     public static void main (String[] args){
         Jogo jogo = new Jogo("Maple Tale");
 

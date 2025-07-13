@@ -1,15 +1,15 @@
-package aventura;
+package aventura.br.com.daviaires;
 
-public class Heroi extends Personagem{
-    private String classe;
+public class Inimigo extends Personagem{
+    private String tipo;
 
-    public Heroi(String nome, String descricao, String classe, int vida, int ataque, int armadura){
+    public Inimigo(String nome, String descricao, String tipo, int vida, int ataque, int armadura){
         super(nome, descricao, vida, ataque, armadura);
-        this.classe = classe;
+        this.tipo = tipo;
     }
     public void descreveEntidade(){
         System.out.println(super.getNome());
-        System.out.println(this.getClasse());
+        System.out.println(this.getTipo());
         System.out.println(super.getDescricao());
         System.out.println(super.getVida());
         System.out.println(super.getAtaque());
@@ -18,10 +18,11 @@ public class Heroi extends Personagem{
             System.out.println(equipamento.getNome());
         }
     }
-    public String getClasse() {
-        return classe;
+
+    public String getTipo() {
+        return tipo;
     }
-    public void setClasse(String classe) {
-        this.classe = classe;
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 }
